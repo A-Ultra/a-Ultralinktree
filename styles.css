@@ -1,10 +1,21 @@
+header {
+  color: white;
+  display: block;
+}
+header b {
+  font-size: 2.5vw;
+  padding-bottom: 2vh;
+  vertical-align: middle;
+  margin-left: 5vw;
+}
+
 body {
     background-color: black;
 
     color: white;
     font-family: "Open Sans", sans-serif;
 
-    letter-spacing: 2px;
+    letter-spacing: 0.2vw;
 }
 
 .profile-picture {
@@ -12,36 +23,35 @@ body {
     margin-left: auto;
     margin-right: auto;
 
-    margin-top: 10%;
-    height: auto;
-    max-width: 100px;
+    margin-top: 5vh;
+    width: 40vw;
 
     border-radius: 50%;
-} 
+}
 
 .profile-name {
     text-align: center;
 
-    padding: 30px;
-    font-size: 28px;
+    padding-top: none;
+    padding-bottom: 3vh;
+    font-size: 10vw;
 }
 
 .Links {
     text-align: center;
     margin-top: 20px;
     border: 1px solid white;
-    border-width: 2px;
-    padding: 20px;
+    padding: 2vw;
 
-    width: 290px;
+    width: 60vw;
     display: block;
     margin-right: auto;
     margin-left: auto;
 
     border-radius: 40px;
 
-    font-size: 18px;
-} 
+    font-size: 2vw;
+}
 
 a {
     text-decoration: none;
@@ -54,4 +64,10 @@ a:hover{
     color: black;
 
     background-color: white;
+}
+
+@media screen and (min-width: 900px) {
+  .Links {
+    width: 30vw;
+  }
 }
